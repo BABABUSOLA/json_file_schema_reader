@@ -1,0 +1,293 @@
+{
+    "battle": {
+        "id": {
+            "tag": "id",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQR"
+        },
+        "name": {
+            "tag": "name",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWX"
+        },
+        "orientation": {
+            "tag": "orientation",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNO"
+        },
+        "settings": {
+            "minParticipants": {
+                "tag": "minParticipants",
+                "description": "",
+                "required": false,
+                "type": "INTEGER",
+                "value": 942
+            },
+            "maxParticipants": {
+                "tag": "maxParticipants",
+                "description": "",
+                "required": false,
+                "type": "INTEGER",
+                "value": 641
+            },
+            "battleType": {
+                "tag": "battleType",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMN"
+            },
+            "wagerType": {
+                "tag": "wagerType",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMNOPQRSTUVW"
+            },
+            "countdown": {
+                "tag": "countdown",
+                "description": "",
+                "required": false,
+                "type": "INTEGER",
+                "value": 69
+            },
+            "duration": {
+                "tag": "duration",
+                "description": "",
+                "required": false,
+                "type": "INTEGER",
+                "value": 200
+            },
+            "archetype": {
+                "name": {
+                    "tag": "name",
+                    "description": "",
+                    "required": false,
+                    "type": "STRING",
+                    "value": "ABCDEFGHIJKLMNOPQRS"
+                },
+                "iconId": {
+                    "tag": "iconId",
+                    "description": "",
+                    "required": false,
+                    "type": "STRING",
+                    "value": "ABCDEFGHIJKLMNOPQRST"
+                }
+            }
+        },
+        "status": {
+            "tag": "status",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKL"
+        },
+        "creationTime": {
+            "tag": "creationTime",
+            "description": "",
+            "required": false,
+            "type": "INTEGER",
+            "value": 240
+        },
+        "startTime": {
+            "tag": "startTime",
+            "description": "",
+            "required": false,
+            "type": "INTEGER",
+            "value": 626
+        },
+        "endTime": {
+            "tag": "endTime",
+            "description": "",
+            "required": false,
+            "type": "INTEGER",
+            "value": 353
+        },
+        "creator": {
+            "id": {
+                "tag": "id",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZA"
+            },
+            "nickname": {
+                "tag": "nickname",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMNOPQ"
+            },
+            "title": {
+                "tag": "title",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            },
+            "accountType": {
+                "tag": "accountType",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDE"
+            },
+            "countryCode": {
+                "tag": "countryCode",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCD"
+            },
+            "orientation": {
+                "tag": "orientation",
+                "description": "",
+                "required": false,
+                "type": "STRING",
+                "value": "ABCDEFGHIJKLMNO"
+            }
+        },
+        "participants": {
+            "tag": "participants",
+            "description": "",
+            "required": false,
+            "type": "ARRAY",
+            "value": [
+                {
+                    "user": {
+                        "id": {
+                            "tag": "id",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGHIJKLMN"
+                        },
+                        "nickname": {
+                            "tag": "nickname",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGHIJKLMN"
+                        },
+                        "title": {
+                            "tag": "title",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGHIJK"
+                        },
+                        "accountType": {
+                            "tag": "accountType",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGHIJKLMNOPQRSTUVWX"
+                        },
+                        "countryCode": {
+                            "tag": "countryCode",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGH"
+                        },
+                        "orientation": {
+                            "tag": "orientation",
+                            "description": "",
+                            "required": false,
+                            "type": "STRING",
+                            "value": "ABCDEFGHIJKLMNOPQRSTUVWXY"
+                        }
+                    },
+                    "creator": {
+                        "tag": "creator",
+                        "description": "",
+                        "required": false,
+                        "type": "INTEGER",
+                        "value": false
+                    },
+                    "ranking": {
+                        "tag": "ranking",
+                        "description": "",
+                        "required": false,
+                        "type": "INTEGER",
+                        "value": 498
+                    },
+                    "numberOfTrades": {
+                        "tag": "numberOfTrades",
+                        "description": "",
+                        "required": false,
+                        "type": "INTEGER",
+                        "value": 862
+                    },
+                    "performance": {
+                        "tag": "performance",
+                        "description": "",
+                        "required": false,
+                        "type": "STRING",
+                        "value": "ABCDEFGHIJKLMNOPQRSTUVW"
+                    }
+                }
+            ]
+        }
+    },
+    "joiner": {
+        "id": {
+            "tag": "id",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB"
+        },
+        "nickname": {
+            "tag": "nickname",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNO"
+        },
+        "title": {
+            "tag": "title",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+        },
+        "accountType": {
+            "tag": "accountType",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRS"
+        },
+        "countryCode": {
+            "tag": "countryCode",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQR"
+        },
+        "orientation": {
+            "tag": "orientation",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQR"
+        }
+    },
+    "participantIds": {
+        "tag": "participantIds",
+        "description": "",
+        "required": false,
+        "type": "ENUM",
+        "value": [
+            "ABCDEFGHIJKLMNOPQRST",
+            "ABCDEFGHIJKLMNOPQRSTUVWXY"
+        ]
+    }
+}

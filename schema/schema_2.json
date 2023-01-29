@@ -1,0 +1,85 @@
+{
+    "user": {
+        "id": {
+            "tag": "id",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOP"
+        },
+        "nickname": {
+            "tag": "nickname",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCD"
+        },
+        "title": {
+            "tag": "title",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+        },
+        "accountType": {
+            "tag": "accountType",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWX"
+        },
+        "countryCode": {
+            "tag": "countryCode",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWX"
+        },
+        "orientation": {
+            "tag": "orientation",
+            "description": "",
+            "required": false,
+            "type": "STRING",
+            "value": "ABCDEFGHIJKLMNOPQRSTU"
+        }
+    },
+    "time": {
+        "tag": "time",
+        "description": "",
+        "required": false,
+        "type": "INTEGER",
+        "value": 890
+    },
+    "acl": [],
+    "publicFeed": {
+        "tag": "publicFeed",
+        "description": "",
+        "required": false,
+        "type": "INTEGER",
+        "value": false
+    },
+    "internationalCountries": {
+        "tag": "internationalCountries",
+        "description": "",
+        "required": false,
+        "type": "ENUM",
+        "value": [
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+            "ABCDEFGHIJKLMNOPQ",
+            "ABCDEFGHIJKLMNOPQRSTUVW",
+            "ABCDEFGHIJKLMNOPQRSTUVWXY",
+            "ABCDEFGHIJK",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ABCDEFGHIJKLMNOPQR",
+            "ABCDEFG",
+            "ABCDEFGHIJKLM"
+        ]
+    },
+    "topTraderFeed": {
+        "tag": "topTraderFeed",
+        "description": "",
+        "required": false,
+        "type": "INTEGER",
+        "value": true
+    }
+}
